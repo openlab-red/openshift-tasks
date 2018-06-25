@@ -1,8 +1,8 @@
 #!groovy
 
 node('maven') {
-    def DEV_PROJECT="dev"
-    def PROD_PROJECT="prod"
+    // def DEV_PROJECT="dev"
+    // def PROD_PROJECT="prod"
     def mvnCmd = "mvn -s ./nexus_openshift_settings.xml"
 
     stage('Checkout Source') {
